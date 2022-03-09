@@ -44,6 +44,7 @@ h1{
     bottom: 0;
     right: 0;
     left:0;
+    display: none;
 }
 
 .modal{
@@ -100,4 +101,34 @@ input[type=text], input[type=tel], input[type=email]{
     color: white;
 }
 
-.subscribe{}
+.subscribe{
+    padding: 11px;
+    text-transform: uppercase;
+    background-color: white;
+    outline: none;
+    border: none;
+    color: teal;
+    font-weight: 700;
+}
+
+.social-media i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.close-btn{
+    background: transparent;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    outline: none;
+    border: none;
+    margin-right: 15px;
+    margin-top: 10px;
+}

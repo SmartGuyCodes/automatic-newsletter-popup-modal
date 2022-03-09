@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     function showModal(){
         $('#modal-container').show();
-        $('html body').css('overflow', 'hidden')
+        $('html body').css('overflow', 'hidden');
     }
 
     function closeModal(){
